@@ -49,8 +49,20 @@ taller-rag/
 ├── notebooks/          # Notebooks educativos con ejercicios prácticos
 ├── chatbot/            # Implementación del chatbot RAG con Chainlit
 ├── documentos/         # Documentos para la base de conocimientos
+├── iac/                # Scripts de infraestructura como código para AWS
 └── README.md           # Este archivo
 ```
+
+### Infraestructura como Código (IaC)
+
+La carpeta `iac/` contiene scripts de Python para configurar automáticamente los recursos de AWS necesarios para el taller. Estos scripts crean:
+
+- Vector Bucket en S3 Vectors (almacenamiento de vectores)
+- Knowledge Base en Amazon Bedrock
+- Data Source (configuración de fuente de datos)
+- Sincronización de documentos
+
+Para más información sobre cómo usar estos scripts, consultá el [README de la carpeta iac](iac/README.md).
 
 ## 📝 Licencia
 
